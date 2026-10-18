@@ -55,6 +55,12 @@ This screenshot shows an employee account I created in Microsoft Entra ID. I add
 
 ![Sarah Miller Employee Account](screenshots/user-details-sarah-miller.png)
 
+**HR Security Group Membership**
+
+I added Sarah Miller and John Carter to the HR security group to practice organizing employees by department. This screenshot shows their original group memberships before I transferred John to Finance later in the lab.
+
+![HR Group Members](screenshots/hr-group-members.png)
+
 ### 2. Application Access Management
 
 - Created a test enterprise application called DTS Finance Portal.
