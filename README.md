@@ -49,6 +49,12 @@ This screenshot shows the four security groups I created in Microsoft Entra ID t
 
 ![Security Groups](screenshots/01-security-groups.png)
 
+**Employee Account Creation**
+
+This screenshot shows an employee account I created in Microsoft Entra ID. I added their job title, department, company name, and employee ID to simulate onboarding a new employee.
+
+![Sarah Miller Employee Account](screenshots/user-details-sarah-miller.png)
+
 ### 2. Application Access Management
 
 - Created a test enterprise application called DTS Finance Portal.
