@@ -43,6 +43,11 @@ My goal with this project was to get more comfortable using Microsoft Entra ID a
 - Added employee information such as job titles, departments, and employee IDs.
 - Created separate security groups for HR, Finance, IT, and Sales.
 - Assigned employees to their appropriate departmental groups.
+- **Security Groups Created**
+
+This screenshot shows the four security groups I created in Microsoft Entra ID to organize employees by department.
+
+![Security Groups](screenshots/01-security-groups.png)
 
 ### 2. Application Access Management
 
