@@ -67,6 +67,18 @@ I added Sarah Miller and John Carter to the HR security group to practice organi
 - Assigned Finance employees to the application.
 - Configured the application to require users to be assigned before signing in.
 
+- **DTS Finance Portal — Application Assignments**
+
+For this part of the lab, I created a test enterprise application called DTS Finance Portal to practice managing employee access.
+
+I assigned Jaxson Dart and Pete Crow-Armstrong, two employees in the Finance department, to the application.
+
+I also configured the application to require user assignment before sign-in. This helped me understand how IAM teams limit application access to specific employees.
+
+The Finance Portal was used to practice application assignments. I tested working SAML SSO separately using the Microsoft Entra SAML Toolkit.
+
+![Finance Portal User Assignments](screenshots/finance-portal-assignments.png)
+
 ### 3. Single Sign-On (SSO) and MFA
 
 - Set up SAML SSO using the Microsoft Entra SAML Toolkit.
