@@ -88,13 +88,22 @@ The Finance Portal was used to practice application assignments. I tested workin
 
 **SAML Single Sign-On Configuration**
 
-I used Microsoft Entra SAML Toolkit to practice setting up Single Sign-On with Microsoft Entra ID.
+I used Microsoft Entra SAML Toolkit to practice setting up Single Sign-On (SSO).
 
-I configured the application's SAML settings, including the Entity ID, reply URL, sign-in URL, and NameID claim. I also worked with the SAML signing certificate to connect Microsoft Entra ID to the test application.
+I set up the SAML settings, including the Entity ID, reply URL, sign-in URL, and NameID. I also used a signing certificate to help connect Microsoft Entra ID to the test application.
 
-This screenshot shows the initial SAML configuration I worked with during setup. I later updated the URLs to complete the working sign-in integration.
+This screenshot shows my original setup. I later updated the URLs to get Single Sign-On working properly.
 
 ![SAML SSO Configuration](screenshots/saml-sso-configuration.png)
+
+
+**SAML NameID Claim Configuration**
+
+I also configured the NameID claim for the Microsoft Entra SAML Toolkit.
+
+I configured the NameID claim in Microsoft Entra ID by setting the name identifier format to Email address and selecting user.userprincipalname as the source attribute. This helped me understand how Microsoft Entra ID sends user identity information to an application during SAML SSO.
+
+![SAML NameID Claim Configuration](screenshots/saml-nameid-claim.png)
 
 ### 4. Access Control Testing
 
