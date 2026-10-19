@@ -105,6 +105,14 @@ I configured the NameID claim in Microsoft Entra ID by setting the name identifi
 
 ![SAML NameID Claim Configuration](screenshots/saml-nameid-claim.png)
 
+**Multifactor Authentication (MFA)**
+
+I set up Microsoft Authenticator for Jaxson Dart's test account to get some hands-on practice with MFA in Microsoft Entra ID.
+
+The screenshot shows that Microsoft Authenticator was added to the account and set as the default sign-in method. This helped me understand how MFA makes accounts more secure by adding another step besides just entering a password.
+
+![Microsoft Authenticator Registration](screenshots/mfa-authenticator-registration.png)
+
 ### 4. Access Control Testing
 
 - Tested signing in with an employee who was assigned to the SAML Toolkit.
