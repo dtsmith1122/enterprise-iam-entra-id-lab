@@ -113,6 +113,14 @@ The screenshot shows that Microsoft Authenticator was added to the account and s
 
 ![Microsoft Authenticator Registration](screenshots/mfa-authenticator-registration.png)
 
+**Successful SSO Sign-In**
+
+I tested signing in to the Microsoft Entra SAML Toolkit using Jaxson Dart's test account.
+
+I checked the sign-in logs in Microsoft Entra ID and saw that the sign-in was successful. The logs also showed that the MFA requirement was already satisfied by a claim in the token.
+
+![Successful Sign-In Log](screenshots/successful-sso-signin-log.png)
+
 ### 4. Access Control Testing
 
 - Tested signing in with an employee who was assigned to the SAML Toolkit.
