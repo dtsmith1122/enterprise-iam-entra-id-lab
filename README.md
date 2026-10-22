@@ -185,6 +185,16 @@ This screenshot shows that Parker's account was disabled.
 
 ![Parker Washington Disabled Account](screenshots/parker-account-disabled.png)
 
+**Removing Group Access**
+
+After disabling Parker's account, I removed him from the Sales security group.
+
+I checked his group memberships afterward to make sure he wasn't part of any groups anymore.
+
+This helped me understand why removing access is an important part of offboarding an employee.
+
+![Parker Washington Group Access Removed](screenshots/parker-groups-removed.png)
+
 ## What I Learned
 
 This project helped me better understand how IAM works beyond just learning the concepts in class.
