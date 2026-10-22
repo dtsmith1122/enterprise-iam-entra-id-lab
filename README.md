@@ -175,6 +175,16 @@ This screenshot shows John's updated information after I moved him to Finance.
 
 ![John Carter after transfer](screenshots/john-carter-after-transfer.png)
 
+**Employee Offboarding – Disabling an Account**
+
+To practice what happens when an employee leaves a company, I used Parker Washington as a test employee.
+
+I disabled his account in Microsoft Entra ID so he could no longer sign in. I also revoked his sign-in sessions and removed him from his security group.
+
+This screenshot shows that Parker's account was disabled.
+
+![Parker Washington Disabled Account](screenshots/parker-account-disabled.png)
+
 ## What I Learned
 
 This project helped me better understand how IAM works beyond just learning the concepts in class.
