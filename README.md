@@ -174,6 +174,7 @@ This screenshot shows John's original job information when he worked in HR.
 This screenshot shows John's updated information after I moved him to Finance.
 
 ![John Carter after transfer](screenshots/john-carter-after-transfer.png)
+
 ## What I Learned
 
 This project helped me better understand how IAM works beyond just learning the concepts in class.
