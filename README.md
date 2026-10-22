@@ -128,6 +128,22 @@ I checked the sign-in logs in Microsoft Entra ID and saw that the sign-in was su
 - Confirmed Microsoft Entra blocked the unassigned employee with error **AADSTS50105**.
 - Reviewed sign-in logs to verify the authentication results.
 
+
+**Testing Unauthorized Access**
+
+I wanted to see what would happen if someone tried signing into an application they weren't supposed to have access to.
+
+I used Sarah Miller's account to test this because she wasn't assigned to the Microsoft Entra SAML Toolkit.
+
+When I tried signing in, Microsoft Entra ID blocked her access and showed error **AADSTS50105**.
+
+This helped me understand how companies can use application assignments to control who can access certain applications.
+
+**Unauthorized Access Test Screenshot**
+
+![Unauthorized access blocked](screenshots/access-denied-unassigned-user.png)
+
+
 ### 5. Employee Lifecycle Management
 
 - Simulated an employee transferring from HR to Finance.
