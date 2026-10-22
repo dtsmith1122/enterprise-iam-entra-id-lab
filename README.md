@@ -152,6 +152,28 @@ This helped me understand how companies can use application assignments to contr
 - Disabled their account, revoked sign-in sessions, and removed group access.
 - Reviewed audit logs to confirm the changes were recorded.
 
+
+**Employee Department Transfer (John Carter)**
+
+For this part of the lab, I practiced updating an employee's account when they move to a different department.
+
+I used John Carter as my example. He originally worked in HR as an HR Coordinator, but I transferred him to Finance and changed his job title to Financial Analyst.
+
+I also removed him from the HR security group and added him to the Finance security group so his access matched his new position.
+
+This helped me understand why companies need to keep employee information and permissions updated when someone changes roles.
+
+**Before the Transfer**
+
+This screenshot shows John's original job information when he worked in HR.
+
+![John Carter before transfer](screenshots/john-carter-before-transfer.png)
+
+**After the Transfer**
+
+This screenshot shows John's updated information after I moved him to Finance.
+
+![John Carter after transfer](screenshots/john-carter-after-transfer.png)
 ## What I Learned
 
 This project helped me better understand how IAM works beyond just learning the concepts in class.
