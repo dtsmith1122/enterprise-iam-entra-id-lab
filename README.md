@@ -195,6 +195,16 @@ This helped me understand why removing access is an important part of offboardin
 
 ![Parker Washington Group Access Removed](screenshots/parker-groups-removed.png)
 
+**Checking Audit Logs**
+
+After disabling Parker's account and removing him from his security group, I checked the audit logs in Microsoft Entra ID.
+
+The logs showed that the changes were successful, including disabling his account, updating his sign-in sessions, and removing him from the group.
+
+This helped me understand how IAM analysts can use audit logs to check what changes were made to an employee's account.
+
+![Parker Washington Audit Logs](screenshots/parker-offboarding-audit-logs.png)
+
 ## What I Learned
 
 This project helped me better understand how IAM works beyond just learning the concepts in class.
